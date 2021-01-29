@@ -7,7 +7,7 @@ API](https://openweathermap.org/api).
 ## Starting the lab
 
 To start the lab, you must follow this [GitHub Classroom
-link](TBD). This will create a
+link](https://classroom.github.com/a/m3Y4scIN). This will create a
 private repository for you using our classroom site. We will only
 grade repositories created and submitted this way.
 
@@ -26,14 +26,13 @@ building a form that gets the current weather:
 
 ## Weather Forecast
 
-Once you have completed the basic weather calls from the tutorial, use
-the API to add the 5-day and 3-hour forecast.
+Next, use the [tutorials](/tutorials/README.md) to add a 5-day forecast. Note, this forecast is broken up into 3 hour segments, so for 5 days that is 15 3-hour forecasts.
 
-## Details
+## Add significantly more detail
 
-There is a significant amount of data returned from the API. Spend a
-reasonable amount of time to figure out how to show as much of this as
-you can, including icons where possible.
+In the tutorials, we add only an icon, temperature, and text description.
+However, there is a *lot* more data returned from the API. Spend some time looking at the returned JSON
+and the documentation to see what else is returned. Modify your pages to show more of this, including icons where possible.
 
 ## Web Design
 
