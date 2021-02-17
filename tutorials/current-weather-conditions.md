@@ -42,7 +42,7 @@ We next use `getElementById` to get the input field from the form, and we store 
 
 ## Call the Weather API
 
-At this point, you should have your own API key for the Open Weather Map service. If you don't, please see the instructions at the home page of this Wiki. We will call the API by adding this to our existing function:
+At this point, you should have your own API key for the Open Weather Map service. If you don't, please see the instructions at the home page of this Wiki. We will call the API by **adding this to our existing function**:
 
 ```
   const url = "http://api.openweathermap.org/data/2.5/weather?q=" + value + ",US&units=imperial" + "&APPID=APIKEY";
