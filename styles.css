@@ -1,0 +1,47 @@
+body {
+    max-width: 80%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.portfolio {
+    display: grid;
+    grid-template: auto auto auto auto auto / 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
+  
+  .image img {
+    width: 100%;
+  }
+
+  .image {
+      background-color: #CEFBFA;
+  }
+
+  footer {
+    background-color: #83FAF9;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 0.25em;
+    max-width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.image img {
+    max-width: 3em;
+    max-width: 3em;
+}
+
+.headImage {
+    background-color: #67C7C5;
+}
+
+.headImage img {
+    max-width: 3em;
+    max-width: 3em;
+}
+
+
+#weatherResults {
+    background-color: #647A7A;
+}
